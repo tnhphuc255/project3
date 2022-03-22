@@ -1,0 +1,27 @@
+@media (max-width: 991px) and (min-width: 768px){
+    .navbar {
+        background-color: rgb(167, 178, 194);
+    }	
+	.banner-text h1, .banner-text p{
+		font-size: 150%;
+    }
+    .article-img {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        width: 100%;
+      }
+    .bottom-container > div {
+        padding-bottom: 40px;
+    }
+    .bottom-container {
+        display: block;
+        background-color: white;
+    }
+    .article {
+        padding: 20px;
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+}
+}

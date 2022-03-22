@@ -1,0 +1,43 @@
+@media (max-width: 767px){
+    .article-img {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        width: 100%;
+      }
+    .navbar {
+        background-color: rgb(167, 178, 194);
+    }
+    .banner {
+        display: block;
+    }
+    .banner-text {
+        position: relative;
+    }
+	.banner-text h1, .banner-text p{
+		font-size: 150%;
+        color: black;
+	}
+    .banner img {
+        display: none;
+    }
+    hr {
+        display: block;
+    }
+    .bottom-container > div {
+        padding-bottom: 40px;
+    }
+    .bottom-container {
+        display: block;
+        padding-left: 20px;
+        background-color: white;
+    }
+    .bottom-container >div>a {
+        color:rgb(77, 77, 77)
+    }
+    .article {
+        padding: 10px;
+      background-color: rgb(255, 255, 255);
+      width: 100%;
+}

@@ -1,0 +1,5 @@
+@media (min-width: 992px){
+	.banner-text h1, .banner-text p{
+		font-size: 200%;
+	}
+}
